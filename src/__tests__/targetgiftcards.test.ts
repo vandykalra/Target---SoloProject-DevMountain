@@ -61,11 +61,7 @@ expect(a).toContain( "$20")                                  //comparing the tot
 })
 
 
-/* This test case will test the custom value for the gift card field which only accepts $5-$500
-*  Valid values are receiving from .json file which are $5, $3, $50 and $500 and $550
-*  Test case will go to else statemnt if user inputs invalid value and "add to card" button will be disable automatically
-*  Adding a screenshot here when invalid values are entered
-*/
+
 
 afterAll(() => {
 myPage.driver.quit();                     // this will close the browser after all test cases
