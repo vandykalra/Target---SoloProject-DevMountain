@@ -17,6 +17,14 @@ expect(await myPage.driver.getCurrentUrl()).toBe("https://www.target.com/")
 await driver.sleep(1000)
 })
 
+
+
+/* This test case will test the custom value for the gift card field which only accepts $5-$500
+*  Valid values are receiving from .json file which are $5, $3, $50 and $500 and $550
+*  Test case will go to else statemnt if user inputs invalid value and "add to card" button will be disable automatically
+*  Adding a screenshot here when invalid values are entered
+*/
+
 test('To test the custom value for the card which should be between 5 and 500', async() =>  {
 
     //await driver.sleep(1000)  
