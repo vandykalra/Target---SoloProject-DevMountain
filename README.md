@@ -31,7 +31,4 @@ Run the postman "Get" request to find the location_id = 911 (screenshot attached
 Files used for the project: 
 Target Website : https://www.target.com
 API URL: https://target1.p.rapidapi.com/stores/get-details
-<<<<<<< HEAD
-=======
 
->>>>>>> 17ca03b031cae7c344094bb3c5e4f5f75ce3daa6
